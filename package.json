@@ -1,0 +1,30 @@
+{
+  "name": "omega-tech-service-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/msal-node": "^2.16.2",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "imap": "^0.8.19",
+    "mailparser": "^3.7.2",
+    "node-imap": "^0.9.6",
+    "nodemailer": "^6.9.16",
+    "poplib": "^0.1.7",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

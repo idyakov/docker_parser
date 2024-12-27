@@ -1,0 +1,74 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# General environment files
+.env
+
+# Environment-specific files
+.env.local             # Local environment configuration
+.env.development       # Development environment configuration
+.env.development.local # Local overrides for development
+.env.production        # Production environment configuration
+.env.production.local  # Local overrides for production
+.env.test              # Test environment configuration
+.env.test.local        # Local overrides for testing
+
+# Wildcard for any other unspecified environments
+.env.*.local
+.env.*                # Catch-all for other environment-specific files
+
+# Logs
+logs/
+*.log
+logs/*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+*.sublime*
+
+# Operating system files
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# PM2 process logs
+.pm2/
+
+# Emails data or temporary files (if applicable)
+email-data/
+
+# Others
+*.iml
+*.lock
+*.txt
+
+# Ignore local README backups
+*README.bak
